@@ -1,15 +1,12 @@
 name: Feature request
 description: Request a feature to be added to TerraCraft
-title: ''
-labels: enhancement
-assignees: ''
-
+labels: ["enhancement"]
 body:
   - type: textarea
     id: suggestion
     attributes:
       label: What should be added or changed?
-      description: Provide a brief and clear explanation of the change or addition you're suggesting.
+      description: "Provide a brief and clear explanation of the change or addition you're suggesting."
     validations:
       required: true
   - type: textarea
