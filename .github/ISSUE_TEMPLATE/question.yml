@@ -5,6 +5,7 @@ body:
   - type: textarea
     id: question
     attributes:
-      label: Ask your question here:
+      label: Ask your question here
+      description: Make sure to provide all necessary information.
     validations:
       required: true
