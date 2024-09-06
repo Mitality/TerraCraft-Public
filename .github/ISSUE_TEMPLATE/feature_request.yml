@@ -16,3 +16,8 @@ body:
       description: Outline the reasons why this change or addition would be beneficial or necessary.
     validations:
       required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots/Videos (you can drag and drop files or paste links)
+      description: If applicable, add screenshots to help explain your problem (you can drag and drop files or paste links).
