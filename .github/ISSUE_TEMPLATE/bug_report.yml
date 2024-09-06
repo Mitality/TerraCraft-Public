@@ -1,0 +1,32 @@
+name: Bug report
+description: File a bug report
+labels: ["bug"]
+body:
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Please confirm you are using a non-modded vanilla Client.
+      description: Using modded Clients may cause issues we cannot prevent.
+      options:
+        - label: I am using a non-modded vanilla Client.
+          required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear and concise description of what the bug is.
+      placeholder: "Example: I can't interact with custom furniture if I'm in my own claim"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce the issue
+      description: Describe how to reproduce the issue step by step
+    validations:
+      required: true
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots/Videos (you can drag and drop files or paste links)
+      description: If applicable, add screenshots to help explain your problem (you can drag and drop files or paste links).
