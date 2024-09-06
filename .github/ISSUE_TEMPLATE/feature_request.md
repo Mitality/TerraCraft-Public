@@ -1,7 +1,7 @@
 ---
 name: Feature request
 about: Request a feature to be added to TerraCraft
-title: "[Feature Request]"
+title: ''
 labels: enhancement
 assignees: ''
 
